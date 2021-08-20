@@ -1560,6 +1560,15 @@
 				{
 					"match": ";",
 					"name": "punctuation.terminator.rule.css"
+				},
+				{
+					"include": "#selector"
+				},
+				{
+					"include": "#at-rules"
+				},
+				{
+					"include": "#rule-list"
 				}
 			]
 		},
@@ -1634,7 +1643,7 @@
 							]
 						}
 					},
-					"match": "(?x)\n(\\.)                                  # Valid class-name\n(\n  (?: [-a-zA-Z_0-9]|[^\\x00-\\x7F]     # Valid identifier characters\n    | \\\\(?:[0-9a-fA-F]{1,6}|.)       # Escape sequence\n  )+\n)                                      # Followed by either:\n(?= $                                  # - End of the line\n  | [\\s,.\\#)\\[:{>+~|]               # - Another selector\n  | /\\*                               # - A block comment\n)",
+					"match": "(?x)\n(\\.) # Valid class-name\n(\n  (?: [-a-zA-Z_0-9]|[^\\x00-\\x7F]     # Valid identifier characters\n    | \\\\(?:[0-9a-fA-F]{1,6}|.)       # Escape sequence\n  )+\n)                                      # Followed by either:\n(?= $                                  # - End of the line\n  | [\\s,.\\#)\\[:{>+~|]               # - Another selector\n  | /\\*                               # - A block comment\n)",
 					"name": "entity.other.attribute-name.class.css"
 				},
 				{
