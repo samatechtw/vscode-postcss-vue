@@ -7,13 +7,11 @@ foldingStopMarker: "\\*/|^\\s*$"
 fileTypes: ['pcss', 'postcss']
 patterns:
   - include: '#variable'
-  -
-    captures:
+  - captures:
       0:
         name: keyword.control.at-rule.css.postcss
     patterns:
-      -
-        name: entity.name.function
+      - name: entity.name.function
         match: "[\\w-]+"
     begin: "@mixin|@function|@define-mixin"
     name: support.function.name.postcss.no-completions

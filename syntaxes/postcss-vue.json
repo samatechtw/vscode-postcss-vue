@@ -11,9 +11,6 @@
       "end": "\\*/"
     },
     {
-      "include": "#double-slash"
-    },
-    {
       "include": "#double-quoted"
     },
     {
@@ -24,9 +21,6 @@
     },
     {
       "include": "#placeholder-selector"
-    },
-    {
-      "include": "#variable"
     },
     {
       "include": "#variable-root-css"
@@ -310,10 +304,6 @@
     "dotdotdot": {
       "name": "variable.other",
       "match": "\\.{3}"
-    },
-    "variable": {
-      "name": "variable.parameter.postcss",
-      "match": "\\$[\\w-]+"
     },
     "single-quoted": {
       "patterns": [

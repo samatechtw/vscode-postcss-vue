@@ -3,7 +3,7 @@
 	"displayName": "postcss-vue",
 	"description": "VSCode syntax highlighting, code completion, and error checking in Vue SFCs with Postcss",
 	"publisher": "SamaTech",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.59.0"
 	},
