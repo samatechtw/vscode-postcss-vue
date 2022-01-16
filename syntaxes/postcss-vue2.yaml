@@ -4,7 +4,7 @@ injectionSelector: 'source.postcss'
 scopeName: 'source.vue.postcss'
 foldingStartMarker: "/\\*|^#|^\\*|^\\b|^\\."
 foldingStopMarker: "\\*/|^\\s*$"
-fileTypes: ['pcss', 'postcss']
+fileTypes: ['pcss', 'postcss', 'vue']
 patterns:
   - include: '#variable'
   - captures:
@@ -13,7 +13,7 @@ patterns:
     patterns:
       - name: entity.name.function
         match: "[\\w-]+"
-    begin: "@mixin|@function|@define-mixin"
+    begin: "@add-mixin|@function|@define-mixin"
     name: support.function.name.postcss.no-completions
     end: "$\\n?|(?=\\(|{)"
 repository:

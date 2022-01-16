@@ -6,7 +6,8 @@
   "foldingStopMarker": "\\*/|^\\s*$",
   "fileTypes": [
     "pcss",
-    "postcss"
+    "postcss",
+    "vue"
   ],
   "patterns": [
     {
@@ -24,7 +25,7 @@
           "match": "[\\w-]+"
         }
       ],
-      "begin": "@mixin|@function|@define-mixin",
+      "begin": "@mixin|@add-mixin|@function|@define-mixin",
       "name": "support.function.name.postcss.no-completions",
       "end": "$\\n?|(?=\\(|{)"
     }
