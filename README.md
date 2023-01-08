@@ -1,4 +1,12 @@
-# postcss-vue README
+# postcss-vue
+
+### Update Jan. 8, 2023
+
+⚠️ This plugin is deprecated ⚠️
+
+Volar works well with `cpylua.language-postcss`, unless it breaks in the future this plugin will not be maintained or improved.
+
+## Overview
 
 Syntax highlighting, code completion, and error checking in Vue SFCs with Postcss.
 
